@@ -1,0 +1,18 @@
+div{
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border: 2px solid red;
+    border-radius: 15px;
+    float: left;
+    overflow: hidden;
+    outline-style: solid;
+    outline-color: pink;
+    outline-width: 15px;
+    outline-offset: 0cm;
+}
+
+#div2{
+    /* display: none; */
+    visibility: hidden;
+}
