@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML CSS Proiect 2022 - 2023</title>
+    <meta name="description" content="Proiect demo de la cursul de HTML CSS " />
+    <meta name="keywords" content="website, site, CSS, HTML, proeict" />
+    <meta name="Ama Gornescu" content="LinkAcademy" />
+    <!-- Favicon-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/css/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/css/images/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/css/images/favicon.ico"
+    />
+    <!-- CSS  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="header">
+        <div id="logo">
+          <div id="logo_text">
+            <h1>
+              <a href="acasa.html">Coffee<span class="logo_colour">Shop</span></a>
+            </h1>
+            <h2>Primul meu proiect.</h2>
+          </div>
+        </div>
+        <nav id="menubar">
+          <ul id="menu">
+            <li><a href="acasa.html">Acasa</a></li>
+            <li><a href="desprenoi.html">Despre noi</a></li>
+            <li><a href="portofoliu.html">Portofoliu</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="selected"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="form1">
+    <h1>Formular de contact</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="nume">Nume</label> 
+        <input type="text" name="nume" id="nume"  required> 
+        <label for="prenume">Prenume</label> 
+        <input type="text" name="prenume" id="prenume" required> <br>
+        <label for="Date">Data de nastere</label> 
+        <input type="date" name="data" id="data"> 
+        <label for="email">Adresa de email</label> 
+        <input type="email" name="emailaddres" id="email"><br>
+        <label for="tel">Numar de telefon</label> 
+        <input type="tel" name="" id=""> 
+        <label for="gen">Gen</label>
+        <input type="radio" name="gen" id="" value="m"> M </input>
+        <input type="radio" name="gen" id="" value="f"> F </input>
+        <input type="radio" name="gen" id="" value="n"> N </input> <br>
+        <label for="text">Subiect</label> 
+        <select name="text" id="text"> 
+            <option value="">Selecteaza...</option> 
+            <option value="1">Subiect 1</option> 
+            <option value="2">Subiect 2</option> 
+            <option value="3">Subiect 3</option> 
+        
+        </select>     
+        <br><br>
+        <input type="submit" value="Trimite datele">
+        
+    </form>
+</div>
+
+  </body>
+  <footer id="footer">
+    <p><a href="acasa.html">Home</a> | <a href="contact.html">Contact</a></p>
+    <p>
+      Copyright &copy; Nume Prenume | <a href="">HTML5</a> |
+      <a href="">CSS</a>
+    </p>
+  </footer>
+</body>
+</html>
