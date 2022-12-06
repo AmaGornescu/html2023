@@ -1,0 +1,17 @@
+table{
+    text-align: center;
+}
+
+
+tbody tr:nth-child(2n){
+    background-color: pink;
+}
+tbody tr:nth-child(2n+1){
+    background-color: blue;
+}
+tfoot tr:first-child{
+    background-color: purple;
+}
+tfoot tr:last-child {
+        background-color: green;
+    }

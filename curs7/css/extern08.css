@@ -1,0 +1,21 @@
+section{
+border: blue solid;
+margin: 200px;
+display: flex;
+padding: 20px;
+}
+
+.green{
+    border: green solid;
+    float: left;
+    margin: 10px;
+    
+}
+
+.photo{
+    float: right;
+    width: 70;
+    border: red solid;
+    max-width: 130%;
+    margin: 10px;
+}
